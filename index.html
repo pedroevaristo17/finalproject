@@ -11,24 +11,27 @@
     <title>Portfolio Website</title>
 </head>
 <body>
+    <input type="checkbox" id="checkBox" />
+    <label for="checkBox" class="checkboxBtn"></label>
     <header>
         <a href="#" class="logo">Pedro</a>
 
         <nav>
             <a href="#" class="active">Home</a>
-            <a href="about.html">About me</a>
-            <a href="education.html">Education</a>
-            <a href="contact.html">Contact</a>
+            <a href="#about">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
+        
     </header>
     <section class="home">
-        <div class="home-img">
+        <div class="home-img" style="display: inline-block;">
         <img src="assets/logo/IMG-20250210-WA0014.jpg" alt="Picture of Pedro">
         </div>
         <div class="home-content">
             <h1> Hi, it's<span> Pedro</span></h1>
-            <h3 class="typing-text">I'm a <span> Web Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, error aliquid corrupti aut ad aperiam, consequuntur accusamus cumque delectus ullam est illum voluptatum doloremque doloribus ipsam voluptates dolores voluptate quaerat.</p>
+            <h3 class="typing-text">I'm a <span> </span></h3>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, error aliquid corrupti aut ad aperiam, consequuntur accusamus cumque delectus ullam est illum voluptatum doloremque doloribus ipsam voluptates dolores voluptate quaerat.</p>
             <div class="social-icons">
                 <a href="https://www.facebook.com/profile.php?id=100003736577918">
                     <i class="fa-brands fa-facebook"></i>
@@ -44,8 +47,184 @@
                 </a>
             </div>
         </div>
-
-
     </section>
+    <section id="about">
+        
+        <div class="about-content">
+            <h1>About me <span> Section</span></h1>
+            <h3 class="typing-text">I'm a <span> </span></h3>
+            <p class="description">Hello, my name is Pedro. I am 20 years old and currently studying Web Development at Tamwood College in Vancouver, BC. I am a passionate and dedicated aspiring web developer with a keen interest in creating intuitive and dynamic digital experiences. I love exploring new technologies, learning innovative design techniques, and turning creative ideas into functional, user-friendly websites.
+
+                Outside of coding, I enjoy working out, studying, engaging in physical activities, and spending time with friends. I believe in maintaining a balance between learning, staying active, and having fun, which keeps me motivated and inspired in both my personal and professional life.</p>
+            <button href="contact.html"> Talk to me </button>
+            <button href="education.html">  Check my experience  </button>    
+        </div>
+    </section>
+    <div class="inner">
+        <div class="my-skills">
+            <h1>My Skills</h1>
+        </div>
+        <div class="container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/HTML5_logo_and_wordmark.svg.png" class="skill-icon"> 
+                    </div>
+                    <h3>HTML 5</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/CSS3_logo_and_wordmark.svg"class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/Python-logo-notext.svg.png"class="skill-icon">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/C_Programming_Language.svg"class="skill-icon">
+                    </div>
+                    <h3>C</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+        <section id="projects">
+            <h1 class="section-header">Projects</h1>
+            <div class="main-content">
+                <div class="box">
+                    <img src="assets/InsuranceWebsite.png">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Nostrum tenetur saepe distinctio molestias? Quas architecto, 
+                            facere quia aliquid asperiores, unde deserunt hic magnam deleniti voluptas adipisci tempore illo amet 
+                            veritatis?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/ChocoBratBakery.png">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Nostrum tenetur saepe distinctio molestias? Quas architecto, 
+                            facere quia aliquid asperiores, unde deserunt hic magnam deleniti voluptas adipisci tempore illo amet 
+                            veritatis?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/DesignWebsite.png">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Nostrum tenetur saepe distinctio molestias? Quas architecto, 
+                            facere quia aliquid asperiores, unde deserunt hic magnam deleniti voluptas adipisci tempore illo amet 
+                            veritatis?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/YogaWebsite.png">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Nostrum tenetur saepe distinctio molestias? Quas architecto, 
+                            facere quia aliquid asperiores, unde deserunt hic magnam deleniti voluptas adipisci tempore illo amet 
+                            veritatis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="FAQ">
+            <ul id="accordion">
+                <li>
+                    <label for="first">Where was Pedro born?<span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <div class="content">
+                        <p>Pedro was born in Maceió, Alagoas, in the northeast of Brazil.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="second">What is Accordion? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="second">
+                    <div class="content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero iusto est tenetur, alias 
+                            nobis illo quidem natus aspernatur harum molestias fuga numquam. Porro dolorem cumque repellendus nesciunt 
+                            quia perferendis saepe?
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <label for="third">What is Accordion? <span>&#x3e;</span></label>
+                    <input type="radio" name="accordion" id="third">
+                    <div class="content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero iusto est tenetur, alias 
+                            nobis illo quidem natus aspernatur harum molestias fuga numquam. Porro dolorem cumque repellendus nesciunt 
+                            quia perferendis saepe?
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="title-contact">
+                    <h1>Talk to Me</h1>
+                </div>
+                    <div id="name-field">
+                        <label for="name-input">Full name</label>    
+                        <input type="text" id="name-input" name="fullname" required placeholder="eg: John Doe">
+                    </div>
+
+                    <div class="email-field">
+                        <label for="email-input">Email</label>
+                        <input type="email" id="email-input" name="email" required placeholder="eg: John@email.com">
+                    </div>
+
+                    <div class="phone-field">
+                        <label for="phone-input">Phone Number</label>
+                        <input type="phone" id="phone-input" name="phone" required placeholder="543210987">
+                    </div>
+
+                    <div class="date-field">
+                        <label for="date-input">Select a date</label>
+                        <input type="date" id="date-input" name="date" required placeholder="Select">
+                    </div>
+
+                    <div class="message-field">
+                        <label for="message-input">Share your message</label>
+                        <textarea type="message" id="message-input" name="message" required placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="button-field">
+                        <button type="submit" id="booking-button">Book now</button>
+
+                    </div>
+            </div>
+        </section>
+        
+
+</body>
+</html>
+            
+        
 </body>
 </html>
